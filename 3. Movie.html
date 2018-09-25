@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lime Academy</title>
+</head>
+<body>
+
+<script src="./movie.js">
+</script>
+
+<h1>Question 3</h1>
+title:<input id="titleBox" type="text" title="Movie title"
+       style="margin-left: 5px; margin-right: 5px;" ></input>
+    <label for="pageNum">page number:</label>
+    <input id="pageNum" type="text"
+       style="margin-left:5px" ></input>
+    <button type="button" onclick="getMovieTitles(titleBox.value, pageNum.value)">Go</button>
+<p>
+result:
+<textarea id="result" rows="10" cols="50"></textarea>
+</p>
+</body>
+</html>
